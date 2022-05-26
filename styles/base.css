@@ -1,0 +1,154 @@
+body{
+    background-color:  #f6f6f6;
+    margin: 0px;
+}
+.navigation {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    border-bottom: white solid 1px;
+}
+.navigation a {
+    color: white;
+    text-decoration: none;
+    size: 14px; 
+}
+.navigation a:hover{
+    background-color: lightgray;
+    color: black;
+}
+
+.logo{
+    height: 80px;
+}
+
+h1, h2{
+    color:  rgba(9,9,121,1);
+    font-family: 'Cormorant Garamond', serif; 
+    text-align: center;
+    font-weight : 100;
+    font-style: italic;
+}
+h4{
+    color: blue;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-weight : 100;
+    margin-bottom: 10px;
+}
+.mobile-image{
+  width: 100%;
+  height: 600px;
+}
+.text{
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+}
+.table-section{
+    height: 250px;
+}
+.table{
+    display:grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: repeat(3, 3fr) ;
+    margin: 125px 125px;  
+}
+.styled-table {
+    font-size: 0.9em;
+    font-family: sans-serif;
+    box-shadow: 5px 5px 20px darkgray;
+    text-align: center;
+    border-radius: 5px;
+}
+.row{
+    background: linear-gradient(180deg,rgba(2,0,36,1) 0%, rgba(9,39,121,1) 35%, rgba(0,159,255,1) 100%);
+}
+.row-text{
+    padding-top: 15px;
+    color: white;
+}
+
+img{
+    animation: fadeInAnimation ease 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+} 
+.cards{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;
+}
+.card{
+    height: 420px;
+    width: 300px;
+    box-shadow: 10px 10px 20px gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+}
+.e-mob{
+    width: 200px;
+    height:300px;
+}
+.icon-section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.footer{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 200px;
+}
+    
+input {
+    width: 200px;
+    height: 30px;
+    border-radius: 7px;
+}
+.button{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgb(26, 156, 182) 100%);
+    padding: 10px 15px 10px 15px;
+    color: white;
+    border: #f6f6f6;
+    border-radius: 10px;
+}
+
+.fa-brands{
+    display:flex; 
+    justify-content: space-between;
+    color: white;
+    size: 8px;
+}
+
+.sub-footer{
+    height: 20px; 
+    width: 100%;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,159,255,1) 100%);
+    text-align: left;
+}
+
+
+
+
+
